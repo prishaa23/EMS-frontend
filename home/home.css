@@ -1,0 +1,202 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f6f4e1;
+    background-image: url(/home/abstract-1780367_960_720.png);
+}
+
+header {
+    background-color: #491717;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+   
+h3{
+    
+    text-align: right;
+    color:#bb0f96;
+    font-style: oblique;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav a {
+    color: #0fbedd;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.nav a:hover {
+    background-color: #25efd4;
+}
+
+.banner {
+    position: relative;
+    height: 200px;
+    background-color: #f6f4e1;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-container {
+    max-width: 200px;
+    margin: 0 auto;
+    padding-top: 30%;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.container {
+   
+    margin: 0 auto;
+    padding-top: 10%;
+    background-color:#f6f4e1(28, 184, 205);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.container1{
+    margin: 0 auto;
+    padding-top: 10%;
+    background-color:#f6f4e1(28, 184, 205);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.card1{
+    flex-basis: calc(33.33% - 100px);
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 3px #ccc;
+    transition: box-shadow 0.3s ease-in-out;
+    text-align: center;
+
+}
+ul{
+    color:#5712be;
+    text-decoration: underline;
+    text-decoration-color: #491717;
+    font-family:'Garamond';
+}
+
+.card {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 3px #26bdf0;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.card:hover {
+    box-shadow: 2px 2px 5px #ccc;
+}
+.card .card-body {
+    padding: 10px;
+    background-color:#17efab(245, 240, 240);
+}
+
+.card .card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(67, 136, 151);
+}
+
+.card .card-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(51, 185, 53);
+}
+h1{
+    padding-top: 20%;
+    padding-right: 10%;
+    padding-left: 20%;
+    font-size: 300%;
+    color: #bb0f96;
+    text-align: center;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#about-us-container {
+    margin-top: 40px;
+    margin-right: 10px;
+    padding:20px;
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 80%;
+    background-color: #7f65a8;
+    z-index: 999;
+    border-radius: 30px;
+ }
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 3px;
+  }
+  
+  .fa:hover {
+      opacity: 1.0;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  p{
+    color:#bea112;
+    text-decoration: double;
+    font-size:x-large;
+    text-indent: 2em; 
+  }
+ 
+  

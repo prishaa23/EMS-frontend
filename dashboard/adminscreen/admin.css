@@ -1,0 +1,172 @@
+.form-minimize {
+    max-width: 400px;
+    margin: 0 auto;
+
+}
+.img{
+    min-height: 80vh;
+    width:100%;
+    background-image: url(floral2.jpg);
+    background-size: cover;
+}
+.imgs{
+    min-height: 80vh;
+    width:100%;
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+.img3{
+    min-height: 100vh;
+    width:100%;
+    background-image: url(spark.jpg);
+    background-size: cover;
+}
+.img2{
+    min-height: 100vh;
+    width:100%;
+    background-image: url(party1-1.png);
+    background-size: cover;
+    
+}
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    height: 40%;
+    width: 40%;
+}
+.button{
+    display: block;
+    border-radius: 3px;
+    color: rgb(9, 9, 9);
+    background-color:rgb(169, 139, 231)
+}
+
+.input-minimize {
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+.card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.card-header h2 {
+    text-align: center;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.update-btn {
+    background-color: rgb(7, 49, 7);
+    color: white;
+    border: none;
+    margin-right: 10px;
+}
+
+.ticket-btn {
+    background-color: rgb(7, 7, 59);
+    color: white;
+    border: none;
+}
+
+#set-ticket-container {
+    margin-top: 60px;
+    margin-right: 100px;
+    padding: 20px;
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 70%;
+    background-color: #0a0a0a;
+    color: white;
+    z-index: 999;
+    border-radius: 10px;
+}
+label{
+    
+    color: #ba1111;
+}
+#lineh3{
+    position: absolute;
+    left: 0;
+    top: 670px;
+    height: 10px;
+    background: #00D4FF;
+    animation: lineH 5s 2s infinite linear;
+}
+#lineh4{
+    position: absolute;
+    right: 0;
+    top: 700px;
+    height: 10px;
+    background: #00AA2B;
+    animation: lineH 5s 1s infinite linear;
+}
+#lineh5{
+    position: absolute;
+    left: 0;
+    top: 130px;
+    height: 10px;
+    background: #00aa1c;
+    animation: lineH 5s 4s infinite linear;
+}
+#lineh6{
+    position: absolute;
+    right: 0;
+    top: 160px;
+    height: 10px;
+    background: #AAFF00;
+    animation: lineH 4s 1s infinite linear;
+}
+#lineh7{
+    position: absolute;
+    right: 0;
+    top: 190px;
+    height: 10px;
+    background: #D50055;
+    animation: lineH 4s 0s infinite linear;
+}
+#lineh11{
+    position: absolute;
+    right: 0;
+    top: 310px;
+    height: 10px;
+    background: #FF557F;
+    animation: lineH 4s 1s infinite linear;
+}
+#lineh12{
+    position: absolute;
+    right: 0;
+    top: 340px;
+    height: 10px;
+    background: #85B085;
+    animation: lineH 6s 1s infinite linear;
+}
+@keyframes lineH{
+    0%{
+        width: 0%;
+    }
+    100%{
+width: 95%;opacity: 0;
+}
+}

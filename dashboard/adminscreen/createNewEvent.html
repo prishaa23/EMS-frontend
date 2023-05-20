@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create new Event</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body >
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./admin-dash.html"> Organizer Dashboard</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    <div id="light">
+        <div id="lineh3"></div>
+		<div id="lineh4"></div>
+		<div id="lineh5"></div>
+		<div id="lineh6"></div>
+		<div id="lineh7"></div>
+        <div id="lineh11"></div>
+		<div id="lineh12"></div>
+    </div>
+   
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./admin-dash.html">Home</a>
+                    </li>
+                    <li class="nav-item ms-10">
+                        <a class="nav-link" href="./viewAllEvents.html" id="events">Events</a>
+                    </li>
+                    <li class="nav-item ms-10">
+                        <a class="nav-link" href="./createNewEvent.html">New Event</a>
+                    </li>
+                    <li class="nav-item ms-10">
+                        <a class="nav-link" onclick="logOut()">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="img">
+    <div class="card-container mb-4">
+        <div class="card-header bg-warning">
+            <h2 style="color:blueviolet">Create New Event</h2>
+        </div>
+        <div class="card-body">
+            <form class="form-minimize" id="new-event-link">
+                <div class="row">
+                    <div class="col">
+                        <div class="alert alert-danger" role="alert" id="errMsg">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group mb-2">
+                    <label for="eventName"><b>Event Name</b></label>
+                    <input type="text" class="form-control input-minimize" id="eventName" placeholder="Enter event name"
+                        name="title">
+                </div>
+                <div class="form-group mb-2">
+                    <label for="eventDate"><b>Start Date</b></label>
+                    <input type="date" class="form-control input-minimize" id="eventDate" name="startdate"
+                        min="dd-mm-yyyy">
+                </div>
+                <div class="form-group mb-2">
+                    <label for="eventDate"><b>End Date</b></label>
+                    <input type="date" class="form-control input-minimize" id="eventDate" name="enddate"
+                        min="dd-mm-yyyy">
+                </div>
+                <div class="form-group mb-2">
+                    <label for="loaction"><b>Location</b></label>
+                    <input type="text" class="form-control input-minimize" id="location" name="location">
+                </div>
+                <div class="form-group mb-2">
+                    <label for="time"><b>Time</b></label>
+                    <input type="text" class="form-control input-minimize" id="time" name="time" placeholder="23:00">
+                </div>
+                <div class="form-group mb-2">
+                    <label for="eventDescription"><b>Event Description</b></label>
+                    <textarea class="form-control input-minimize" id="eventDescription" name="description"
+                        rows="3"></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-success padding-10px">Create</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+    <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Success</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    New Event Created Successfully
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success"><a href="./viewAllEvents.html"
+                            class="text-white">CLOSE</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="createEvent.js"></script>
+</body>
+
+</html>
