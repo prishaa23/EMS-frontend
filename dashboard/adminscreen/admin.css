@@ -40,6 +40,15 @@ table{
     color: rgb(9, 9, 9);
     background-color:rgb(169, 139, 231)
 }
+.modal-body{
+    background-color:rgb(231, 139, 210)
+
+}
+
+.modal-footer{
+    background-color:rgb(231, 139, 210)
+}
+
 
 .input-minimize {
     width: 100%;

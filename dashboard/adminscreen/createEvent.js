@@ -1,12 +1,12 @@
 
 const validateForm = ({ title, description, startdate, enddate, location, time }) => {
 
-    if (title.length <= 0) return { msg: 'invalid title', sts: false }
-    if (location.length <= 0) return { msg: 'invalid location', sts: false }
-    if (description.length <= 0) return { msg: 'invalid description', sts: false }
-    if (!validateDate(startdate)) return { msg: 'invalid startdate', sts: false }
-    if (!validateDate(enddate)) return { msg: 'invalid enddate', sts: false }
-    if (time.length <= 0) return { msg: 'invalid time', sts: false }
+    if (title.length <= 0) return { msg: 'Sorry,invalid title', sts: false }
+    if (location.length <= 0) return { msg: 'Sorry,invalid location', sts: false }
+    if (description.length <= 0) return { msg: 'Sorry,invalid description', sts: false }
+    if (!validateDate(startdate)) return { msg: 'Sorry,invalid startdate', sts: false }
+    if (!validateDate(enddate)) return { msg: 'Sorry,invalid enddate', sts: false }
+    if (time.length <= 0) return { msg: 'Sorry,invalid time', sts: false }
 
     return { sts: 'success', msg: 'all fields are valid' }
 }

@@ -13,8 +13,8 @@ signup.addEventListener("click", function (event) {
 
 const validateForm = ({ email, password }) => {
 
-  if (email.length <= 0) return { msg: 'invalid email', sts: false }
-  if (password.length <= 0) return { msg: 'invalid password', sts: false }
+  if (email.length <= 0) return { msg: 'Sorry,Invalid email', sts: false }
+  if (password.length <= 0) return { msg: 'Sorry,Invalid password', sts: false }
 
   return { sts: 'success', msg: 'all fields are valid' }
 }
